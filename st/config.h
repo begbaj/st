@@ -5,8 +5,12 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "monospace:pixelsize=12";
-static int borderpx = 2;
+static char *font = "FiraCode Nerd Font Mono:pixelsize=14:style=Retina";
+static char *font2[] = {
+    "Symbola:pixelsize=12"
+};
+
+static int borderpx = 0;
 
 /*
  * What program is execed by st depends of these precedence rules:
