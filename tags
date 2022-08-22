@@ -29,15 +29,20 @@ $(OBJ)	st/Makefile	/^$(OBJ): config.h config.mk$/;"	t
 -1118,11 +1129,23	patches/st-alpha-osc11-20220222-0.8.5.diff	/^@@ -1118,11 +1129,23 @@ xinit(int cols, int rows)$/;"	h	modifiedFile:a/x.c
 -1132,7 +1155,7	patches/st-alpha-osc11-20220222-0.8.5.diff	/^@@ -1132,7 +1155,7 @@ xinit(int cols, int rows)$/;"	h	modifiedFile:a/x.c
 -1152,19 +1175,15	patches/st-alpha-osc11-20220222-0.8.5.diff	/^@@ -1152,19 +1175,15 @@ xinit(int cols, int rows)$/;"	h	modifiedFile:a/x.c
+-1152,8 +1156,8	patches/st-anysize-20220718-baa9357.diff	/^@@ -1152,8 +1156,8 @@ xinit(int cols, int rows)$/;"	h	modifiedFile:a/x.c
 -122,6 +122,7	patches/st-history-20220615-43a395a.diff	/^@@ -122,6 +122,7 @@ unsigned int defaultfg = 7;$/;"	h	modifiedFile:a/config.def.h
 -122,7 +122,21	patches/st-vim-browse-20220615-historyVanilla.diff	/^@@ -122,7 +122,21 @@ unsigned int defaultfg = 7;$/;"	h	modifiedFile:a/config.def.h
 -1225,8 +1244,10	patches/st-meta-vim-full-20210425-43a395a-8.4.patch	/^@@ -1225,8 +1244,10 @@ xmakeglyphfontspecs(XftGlyphFontSpec *specs, const Glyph *glyphs, int len/;"	h	modifiedFile:a/x.c
 -1225,8 +1244,10	patches/st-vim-browse-20220615-historyVanilla.diff	/^@@ -1225,8 +1244,10 @@ xmakeglyphfontspecs(XftGlyphFontSpec *specs, const Glyph *glyphs, int len/;"	h	modifiedFile:a/x.c
 -1232,8 +1240,8	patches/st-meta-vim-full-20210425-43a395a-8.4.patch	/^@@ -1232,8 +1240,8 @@ tclearregion(int x1, int y1, int x2, int y2)$/;"	h	modifiedFile:a/st.c
+-1242,7 +1246,7	patches/st-anysize-20220718-baa9357.diff	/^@@ -1242,7 +1246,7 @@ xinit(int cols, int rows)$/;"	h	modifiedFile:a/x.c
 -127,14 +129,22	patches/st-dracula-0.8.5.diff	/^@@ -127,14 +129,22 @@ static const char *colorname[] = {$/;"	h	modifiedFile:../st/config.def.h
 -131,6 +131,21	patches/st-meta-vim-full-20210425-43a395a-8.4.patch	/^@@ -131,6 +131,21 @@ unsigned int defaultfg = 7;$/;"	h	modifiedFile:a/config.def.h
 -1313,8 +1314,8	patches/st-columns-20220615-historyVanilla.diff	/^@@ -1313,8 +1314,8 @@ tclearregion(int x1, int y1, int x2, int y2)$/;"	h	modifiedFile:a/st.c
+-1375,7 +1379,7	patches/st-anysize-20220718-baa9357.diff	/^@@ -1375,7 +1379,7 @@ void$/;"	h	modifiedFile:a/x.c
+-1465,17 +1469,17	patches/st-anysize-20220718-baa9357.diff	/^@@ -1465,17 +1469,17 @@ xdrawglyphfontspecs(const XftGlyphFontSpec *specs, Glyph base, int len, /;"	h	modifiedFile:a/x.c
 -149,6 +149,8	patches/st-font2-20190416-ba72400.diff	/^@@ -149,6 +149,8 @@ static void xhints(void);$/;"	h	modifiedFile:a/x.c
+-1569,35 +1573,35	patches/st-anysize-20220718-baa9357.diff	/^@@ -1569,35 +1573,35 @@ xdrawcursor(int cx, int cy, Glyph g, int ox, int oy, Glyph og)$/;"	h	modifiedFile:a/x.c
 -1608,6 +1629,7	patches/st-vim-browse-20220615-historyVanilla.diff	/^@@ -1608,6 +1629,7 @@ xdrawline(Line line, int x1, int y1, int x2)$/;"	h	modifiedFile:a/x.c
 -1609,6 +1630,7	patches/st-meta-vim-full-20210425-43a395a-8.4.patch	/^@@ -1609,6 +1630,7 @@ xdrawline(Line line, int x1, int y1, int x2)$/;"	h	modifiedFile:a/x.c
 -178,7 +182,6	patches/st-meta-vim-full-20210425-43a395a-8.4.patch	/^@@ -178,7 +182,6 @@ static void tdeleteline(int);$/;"	h	modifiedFile:a/st.c
@@ -83,6 +88,8 @@ $(OBJ)	st/Makefile	/^$(OBJ): config.h config.mk$/;"	t
 -2675,6 +2612,7	patches/st-vim-browse-20220615-historyVanilla.diff	/^@@ -2675,6 +2612,7 @@ draw(void)$/;"	h	modifiedFile:a/st.c
 -2692,3 +2692,11	patches/st-scrollback-20220615-historyVanilla.diff	/^@@ -2692,3 +2692,11 @@ redraw(void)$/;"	h	modifiedFile:a/st.c
 -296,6 +298,7	patches/st-font2-20190416-ba72400.diff	/^@@ -296,6 +298,7 @@ zoomabs(const Arg *arg)$/;"	h	modifiedFile:a/x.c
+-331,7 +332,7	patches/st-anysize-20220718-baa9357.diff	/^@@ -331,7 +332,7 @@ ttysend(const Arg *arg)$/;"	h	modifiedFile:a/x.c
+-339,7 +340,7	patches/st-anysize-20220718-baa9357.diff	/^@@ -339,7 +340,7 @@ evcol(XEvent *e)$/;"	h	modifiedFile:a/x.c
 -42,6 +42,8	patches/st-history-20220615-43a395a.diff	/^@@ -42,6 +42,8 @@$/;"	h	modifiedFile:a/st.c
 -42,6 +43,8	patches/st-meta-vim-full-20210425-43a395a-8.4.patch	/^@@ -42,6 +43,8 @@$/;"	h	modifiedFile:a/st.c
 -423,6 +433,118	patches/st-meta-vim-full-20210425-43a395a-8.4.patch	/^@@ -423,6 +433,118 @@ tlinelen(int y)$/;"	h	modifiedFile:a/st.c
@@ -113,13 +120,16 @@ $(OBJ)	st/Makefile	/^$(OBJ): config.h config.mk$/;"	t
 -700,11 +640,10	patches/st-vim-browse-20220615-historyVanilla.diff	/^@@ -700,11 +640,10 @@ getsel(void)$/;"	h	modifiedFile:a/st.c
 -715,9 +654,7	patches/st-vim-browse-20220615-historyVanilla.diff	/^@@ -715,9 +654,7 @@ selclear(void)$/;"	h	modifiedFile:a/st.c
 -736,7 +737,7	patches/st-alpha-osc11-20220222-0.8.5.diff	/^@@ -736,7 +737,7 @@ xresize(int col, int row)$/;"	h	modifiedFile:a/x.c
+-739,6 +740,9	patches/st-anysize-20220718-baa9357.diff	/^@@ -739,6 +740,9 @@ cresize(int width, int height)$/;"	h	modifiedFile:a/x.c
 -772,6 +789,8	patches/st-meta-vim-full-20210425-43a395a-8.4.patch	/^@@ -772,6 +789,8 @@ xloadcolor(int i, const char *name, Color *ncolor)$/;"	h	modifiedFile:a/x.c
 -772,6 +789,8	patches/st-vim-browse-20220615-historyVanilla.diff	/^@@ -772,6 +789,8 @@ xloadcolor(int i, const char *name, Color *ncolor)$/;"	h	modifiedFile:a/x.c
 -796,6 +797,10	patches/st-alpha-osc11-20220222-0.8.5.diff	/^@@ -796,6 +797,10 @@ xloadcols(void)$/;"	h	modifiedFile:a/x.c
 -8,6 +8,7	patches/st-meta-vim-full-20210425-43a395a-8.4.patch	/^@@ -8,6 +8,7 @@$/;"	h	modifiedFile:a/st.h
 -8,6 +8,7	patches/st-vim-browse-20220615-historyVanilla.diff	/^@@ -8,6 +8,7 @@$/;"	h	modifiedFile:a/st.h
+-81,6 +81,7	patches/st-anysize-20220718-baa9357.diff	/^@@ -81,6 +81,7 @@ typedef XftGlyphFontSpec GlyphFontSpec;$/;"	h	modifiedFile:a/x.c
 -81,6 +81,9	patches/st-scrollback-20220615-historyVanilla.diff	/^@@ -81,6 +81,9 @@ void die(const char *, ...);$/;"	h	modifiedFile:a/st.h
 -826,6 +831,12	patches/st-alpha-osc11-20220222-0.8.5.diff	/^@@ -826,6 +831,12 @@ xsetcolorname(int x, const char *name)$/;"	h	modifiedFile:a/x.c
+-869,8 +873,8	patches/st-anysize-20220718-baa9357.diff	/^@@ -869,8 +873,8 @@ xhints(void)$/;"	h	modifiedFile:a/x.c
 -89,6 +90,7	patches/st-meta-vim-full-20210425-43a395a-8.4.patch	/^@@ -89,6 +90,7 @@ void toggleprinter(const Arg *);$/;"	h	modifiedFile:a/st.h
 -89,6 +90,7	patches/st-vim-browse-20220615-historyVanilla.diff	/^@@ -89,6 +90,7 @@ void toggleprinter(const Arg *);$/;"	h	modifiedFile:a/st.h
 -93,6 +93,9	patches/st-alpha-osc11-20220222-0.8.5.diff	/^@@ -93,6 +93,9 @@ char *termname = "st-256color";$/;"	h	modifiedFile:a/config.def.h
@@ -344,6 +354,7 @@ a/st.h	patches/st-vim-browse-20220615-historyVanilla.diff	/^--- a\/st.h$/;"	m
 a/win.h	patches/st-meta-vim-full-20210425-43a395a-8.4.patch	/^--- a\/win.h$/;"	m
 a/win.h	patches/st-vim-browse-20220615-historyVanilla.diff	/^--- a\/win.h$/;"	m
 a/x.c	patches/st-alpha-osc11-20220222-0.8.5.diff	/^--- a\/x.c$/;"	m
+a/x.c	patches/st-anysize-20220718-baa9357.diff	/^--- a\/x.c$/;"	m
 a/x.c	patches/st-font2-20190416-ba72400.diff	/^--- a\/x.c$/;"	m
 a/x.c	patches/st-meta-vim-full-20210425-43a395a-8.4.patch	/^--- a\/x.c$/;"	m
 a/x.c	patches/st-vim-browse-20220615-historyVanilla.diff	/^--- a\/x.c$/;"	m
@@ -499,7 +510,7 @@ finish	st/normalMode.h	/^typedef enum {failed=0, success=1, exitMotion=2, exitOp
 flags	st/x.c	/^	int flags;$/;"	m	struct:__anon1c6f2a240b08	typeref:typename:int	file:
 focus	st/x.c	/^focus(XEvent *ev)$/;"	f	typeref:typename:void
 font	st/config.def.h	/^static char *font = "FiraCode Nerd Font Mono:pixelsize=14:style=Retina";$/;"	v	typeref:typename:char *
-font	st/config.h	/^static char *font = "FiraCode Nerd Font Mono:pixelsize=14:style=Retina";$/;"	v	typeref:typename:char *
+font	st/config.h	/^static char *font = "FiraCode Nerd Font Mono:pixelsize=16:style=Retina";$/;"	v	typeref:typename:char *
 font	st/x.c	/^	Font font, bfont, ifont, ibfont;$/;"	m	struct:__anon1c6f2a240908	typeref:typename:Font	file:
 font	st/x.c	/^	XftFont *font;$/;"	m	struct:__anon1c6f2a240b08	typeref:typename:XftFont *	file:
 font2	st/config.def.h	/^static char *font2[] = {$/;"	v	typeref:typename:char * []
@@ -520,6 +531,7 @@ glyph_attribute	st/st.h	/^enum glyph_attribute {$/;"	g
 gm	st/x.c	/^	int gm; \/* geometry mask *\/$/;"	m	struct:__anon1c6f2a240508	typeref:typename:int	file:
 h	st/x.c	/^	int w, h; \/* window width and height *\/$/;"	m	struct:__anon1c6f2a240408	typeref:typename:int	file:
 handler	st/x.c	/^static void (*handler[LASTEvent])(XEvent *) = {$/;"	v	typeref:typename:void (* [LASTEvent])(XEvent *)	file:
+hborderpx	st/x.c	/^	int hborderpx, vborderpx;$/;"	m	struct:__anon1c6f2a240408	typeref:typename:int	file:
 height	st/x.c	/^	int height;$/;"	m	struct:__anon1c6f2a240808	typeref:typename:int	file:
 highlightBg	st/config.def.h	/^unsigned int const highlightBg = 169, highlightFg = 15;$/;"	v	typeref:typename:unsigned int const
 highlightBg	st/config.h	/^unsigned int const highlightBg = 169, highlightFg = 15;$/;"	v	typeref:typename:unsigned int const
@@ -802,6 +814,7 @@ utfmin	st/st.c	/^static const Rune utfmin[UTF_SIZ + 1] = {       0,    0,  0x80,
 utmp	st/config.def.h	/^char *utmp = NULL;$/;"	v	typeref:typename:char *
 utmp	st/config.h	/^char *utmp = NULL;$/;"	v	typeref:typename:char *
 v	st/st.h	/^	const void *v;$/;"	m	union:__anonaa52d418020a	typeref:typename:const void *
+vborderpx	st/x.c	/^	int hborderpx, vborderpx;$/;"	m	struct:__anon1c6f2a240408	typeref:typename:int	file:
 view	st/utils.h	/^static inline char *view(DynamicArray * s, uint32_t i) { return s->content + i*s->elSize; }$/;"	f	typeref:typename:char *
 vis	st/x.c	/^	Visual *vis;$/;"	m	struct:__anon1c6f2a240508	typeref:typename:Visual *	file:
 visibility	st/x.c	/^visibility(XEvent *ev)$/;"	f	typeref:typename:void

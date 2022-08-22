@@ -5,9 +5,9 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "FiraCode Nerd Font Mono:pixelsize=18:style=Retina";
+static char *font = "FiraCode Nerd Font Mono:pixelsize=16:style=Retina";
 static char *font2[] = {
-    "Symbola:pixelsize=18"
+    "Symbola:pixelsize=16"
 };
 
 static int borderpx = 0;
