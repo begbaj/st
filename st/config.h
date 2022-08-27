@@ -5,9 +5,9 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "FiraCode Nerd Font Mono:pixelsize=16:style=Retina";
+static char *font = "FiraCode Nerd Font Mono:pixelsize=14:style=Retina";
 static char *font2[] = {
-    "Symbola:pixelsize=16"
+    "Symbola:pixelsize=12"
 };
 
 static int borderpx = 0;
@@ -243,7 +243,8 @@ static Shortcut shortcuts[] = {
 	{ TERMMOD,              XK_Y,           selpaste,       {.i =  0} },
 	{ ShiftMask,            XK_Insert,      selpaste,       {.i =  0} },
 	{ TERMMOD,              XK_Num_Lock,    numlock,        {.i =  0} },
-	{ MODKEY,               XK_c,           normalMode,     {.i =  0} },
+	{ MODKEY,               XK_Escape,      normalMode,     {.i =  0} },
+	// { MODKEY,               XK_f,           ttysend,        {.s =  "\x1b ddifzf-tmux\n"} },
 };
 
 /*

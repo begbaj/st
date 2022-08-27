@@ -243,7 +243,8 @@ static Shortcut shortcuts[] = {
 	{ TERMMOD,              XK_Y,           selpaste,       {.i =  0} },
 	{ ShiftMask,            XK_Insert,      selpaste,       {.i =  0} },
 	{ TERMMOD,              XK_Num_Lock,    numlock,        {.i =  0} },
-	{ MODKEY,               XK_c,           normalMode,     {.i =  0} },
+	{ MODKEY,               XK_Escape,      normalMode,     {.i =  0} },
+	// { MODKEY,               XK_f,           ttysend,        {.s =  "\x1b ddifzf-tmux\n"} },
 };
 
 /*
