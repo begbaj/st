@@ -98,12 +98,11 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-float alpha = 0.8;
+float alpha = 0.85;
 
 
 // BEGIN PYWAL COMMENT
 /* Terminal colors (16 first used in escape sequence) */
-/*
 static const char *colorname[] = {
     // 8 normal colors 
     [0] = "#000000", // black   
@@ -135,21 +134,18 @@ static const char *colorname[] = {
 	"gray90", // default foreground colour 
 	"black", // default background colour 
 };
-*/
 
 /*
  * Default colors (colorname index)
  * foreground, background, cursor, reverse cursor
  */
-/*
 unsigned int defaultfg = 257;
 unsigned int defaultbg = 256;
 unsigned int defaultcs = 257;
 static unsigned int defaultrcs = 257;
-*/
 
 // END PYWAL COMMENTED
-#include "/home/began/.cache/wal/colors-wal-st.h"
+// #include "/home/began/.cache/wal/colors-wal-st.h"
 
 unsigned int const currentBg = 6, buffSize = 2048;
 /// Enable double / triple click yanking / selection of word / line.
